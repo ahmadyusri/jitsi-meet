@@ -7,8 +7,8 @@
       "platform": "chromeos_play"
     }
   ],
-  "short_name": "Klik Adzki Meet",
-  "name": "Klik Adzki Meet",
+  "short_name": "Klik Adzkia Meet",
+  "name": "Klik Adzkia Meet",
   "icons": [
     {
       "src": "static/pwa/icons/icon192.png",
