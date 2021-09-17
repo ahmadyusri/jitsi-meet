@@ -1,14 +1,14 @@
 {
-  "android_package_name": "org.jitsi.meet",
+  "android_package_name": "com.klik.adzkia",
   "prefer_related_applications": true,
   "related_applications": [
     {
-      "id": "org.jitsi.meet",
+      "id": "com.klik.adzkia",
       "platform": "chromeos_play"
     }
   ],
-  "short_name": "Jitsi Meet",
-  "name": "Jitsi Meet",
+  "short_name": "Klik Adzki Meet",
+  "name": "Klik Adzki Meet",
   "icons": [
     {
       "src": "static/pwa/icons/icon192.png",

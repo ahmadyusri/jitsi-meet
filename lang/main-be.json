@@ -29,7 +29,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Дадаць спасылку канферэнцыі",
-        "confirmAddLink": "Вы хочаце дадаць спасылку Jitsi да гэтай каляндарнай падзеі?",
+        "confirmAddLink": "Вы хочаце дадаць спасылку Klik Adzkia да гэтай каляндарнай падзеі?",
         "error": {
             "appConfiguration": "Няправільна настроена інтэграцыя календара.",
             "generic": "Адбылася памылка. Праверце налады календара або паспрабуйце абнавіць яго.",
@@ -310,7 +310,7 @@
         "answer": "Адказ",
         "audioCallTitle": "Уваходны званок",
         "decline": "Адхіліць",
-        "productLabel": "з Jitsi Meet",
+        "productLabel": "з Klik Adzkia Meet",
         "videoCallTitle": "Уваходны відэазванок"
     },
     "info": {

@@ -1,3 +1,6 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable quotes */
+/* eslint-disable sort-keys */
 /* eslint-disable no-unused-vars, no-var, max-len */
 /* eslint sort-keys: ["error", "asc", {"caseSensitive": false}] */
 
@@ -9,9 +12,9 @@
  */
 
 var interfaceConfig = {
-    APP_NAME: 'Jitsi Meet',
-    AUDIO_LEVEL_PRIMARY_COLOR: 'rgba(255,255,255,0.4)',
-    AUDIO_LEVEL_SECONDARY_COLOR: 'rgba(255,255,255,0.2)',
+    APP_NAME: "Klik Adzkia Meet",
+    AUDIO_LEVEL_PRIMARY_COLOR: "rgba(255,255,255,0.4)",
+    AUDIO_LEVEL_SECONDARY_COLOR: "rgba(255,255,255,0.2)",
 
     /**
      * A UX mode where the last screen share participant is automatically
@@ -21,21 +24,21 @@ var interfaceConfig = {
      *
      * Note: this mode is experimental and subject to breakage.
      */
-    AUTO_PIN_LATEST_SCREEN_SHARE: 'remote-only',
-    BRAND_WATERMARK_LINK: '',
+    AUTO_PIN_LATEST_SCREEN_SHARE: "remote-only",
+    BRAND_WATERMARK_LINK: "https://meet.klik-adzkia.com",
 
-    CLOSE_PAGE_GUEST_HINT: false, // A html text to be shown to guests on the close page, false disables it
+    CLOSE_PAGE_GUEST_HINT: true, // A html text to be shown to guests on the close page, false disables it
 
     // Connection indicators (
     // CONNECTION_INDICATOR_AUTO_HIDE_ENABLED,
     // CONNECTION_INDICATOR_AUTO_HIDE_TIMEOUT,
     // CONNECTION_INDICATOR_DISABLED) got moved to config.js.
 
-    DEFAULT_BACKGROUND: '#474747',
-    DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    DEFAULT_LOGO_URL: 'images/watermark.svg',
-    DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
-    DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/watermark.svg',
+    DEFAULT_BACKGROUND: "#474747",
+    DEFAULT_LOCAL_DISPLAY_NAME: "me",
+    DEFAULT_LOGO_URL: "images/watermark.svg",
+    DEFAULT_REMOTE_DISPLAY_NAME: "Ahmad Yusri",
+    DEFAULT_WELCOME_PAGE_LOGO_URL: "images/watermark.svg",
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 
@@ -97,10 +100,10 @@ var interfaceConfig = {
     HIDE_INVITE_MORE_HEADER: false,
 
     INITIAL_TOOLBAR_TIMEOUT: 20000,
-    JITSI_WATERMARK_LINK: 'https://jitsi.org',
+    JITSI_WATERMARK_LINK: "https://meet.klik-adzkia.com",
 
     LANG_DETECTION: true, // Allow i18n to detect the system language
-    LIVE_STREAMING_HELP_LINK: 'https://jitsi.org/live', // Documentation reference for the live streaming feature.
+    LIVE_STREAMING_HELP_LINK: "https://jitsi.org/live", // Documentation reference for the live streaming feature.
     LOCAL_THUMBNAIL_RATIO: 16 / 9, // 16:9
 
     /**
@@ -123,28 +126,38 @@ var interfaceConfig = {
     /**
      * Specify custom URL for downloading android mobile app.
      */
-    MOBILE_DOWNLOAD_LINK_ANDROID: 'https://play.google.com/store/apps/details?id=org.jitsi.meet',
+    MOBILE_DOWNLOAD_LINK_ANDROID:
+        "https://play.google.com/store/apps/details?id=com.klik.adzkia",
 
     /**
      * Specify custom URL for downloading f droid app.
      */
-    MOBILE_DOWNLOAD_LINK_F_DROID: 'https://f-droid.org/en/packages/org.jitsi.meet/',
+    MOBILE_DOWNLOAD_LINK_F_DROID:
+        "https://f-droid.org/en/packages/com.klik.adzkia/",
 
     /**
      * Specify URL for downloading ios mobile app.
      */
-    MOBILE_DOWNLOAD_LINK_IOS: 'https://itunes.apple.com/us/app/jitsi-meet/id1165103905',
+    MOBILE_DOWNLOAD_LINK_IOS:
+        "https://apps.apple.com/us/app/klik-adzkia/id1565126142",
 
-    NATIVE_APP_NAME: 'Jitsi Meet',
+    NATIVE_APP_NAME: "Klik Adzkia Meet",
 
     // Names of browsers which should show a warning stating the current browser
     // has a suboptimal experience. Browsers which are not listed as optimal or
     // unsupported are considered suboptimal. Valid values are:
     // chrome, chromium, edge, electron, firefox, nwjs, opera, safari
-    OPTIMAL_BROWSERS: [ 'chrome', 'chromium', 'firefox', 'nwjs', 'electron', 'safari' ],
+    OPTIMAL_BROWSERS: [
+        "chrome",
+        "chromium",
+        "firefox",
+        "nwjs",
+        "electron",
+        "safari",
+    ],
 
-    POLICY_LOGO: null,
-    PROVIDER_NAME: 'Jitsi',
+    POLICY_LOGO: "https://meet.klik-adzkia.com/assets/assets/images/logo.png",
+    PROVIDER_NAME: "Klik Adzkia",
 
     /**
      * If true, will display recent list
@@ -154,7 +167,14 @@ var interfaceConfig = {
     RECENT_LIST_ENABLED: true,
     REMOTE_THUMBNAIL_RATIO: 1, // 1:1
 
-    SETTINGS_SECTIONS: [ 'devices', 'language', 'moderator', 'profile', 'calendar', 'sounds' ],
+    SETTINGS_SECTIONS: [
+        "devices",
+        "language",
+        "moderator",
+        "profile",
+        "calendar",
+        "sounds",
+    ],
 
     /**
      * Specify which sharing features should be displayed. If the value is not set
@@ -162,25 +182,25 @@ var interfaceConfig = {
      */
     // SHARING_FEATURES: ['email', 'url', 'dial-in', 'embed'],
 
-    SHOW_BRAND_WATERMARK: false,
+    SHOW_BRAND_WATERMARK: true,
 
     /**
      * Decides whether the chrome extension banner should be rendered on the landing page and during the meeting.
      * If this is set to false, the banner will not be rendered at all. If set to true, the check for extension(s)
      * being already installed is done before rendering.
      */
-    SHOW_CHROME_EXTENSION_BANNER: false,
+    SHOW_CHROME_EXTENSION_BANNER: true,
 
-    SHOW_DEEP_LINKING_IMAGE: false,
+    SHOW_DEEP_LINKING_IMAGE: true,
     SHOW_JITSI_WATERMARK: true,
     SHOW_POWERED_BY: false,
-    SHOW_PROMOTIONAL_CLOSE_PAGE: false,
+    SHOW_PROMOTIONAL_CLOSE_PAGE: true,
 
     /*
      * If indicated some of the error dialogs may point to the support URL for
      * help.
      */
-    SUPPORT_URL: 'https://community.jitsi.org/',
+    SUPPORT_URL: "https://meet.klik-adzkia.com/contact-us",
 
     TOOLBAR_ALWAYS_VISIBLE: false,
 
@@ -206,7 +226,7 @@ var interfaceConfig = {
     // screen, 'width' would fit the original video width to the width of the
     // screen respecting ratio, 'nocrop' would make the video as large as
     // possible and preserve aspect ratio without cropping.
-    VIDEO_LAYOUT_FIT: 'both',
+    VIDEO_LAYOUT_FIT: "both",
 
     /**
      * If true, hides the video quality label indicating the resolution status
@@ -225,23 +245,23 @@ var interfaceConfig = {
     /**
      * Specify Firebase dynamic link properties for the mobile apps.
      */
-    // MOBILE_DYNAMIC_LINK: {
-    //    APN: 'org.jitsi.meet',
-    //    APP_CODE: 'w2atb',
-    //    CUSTOM_DOMAIN: undefined,
-    //    IBI: 'com.atlassian.JitsiMeet.ios',
-    //    ISI: '1165103905'
-    // },
+    MOBILE_DYNAMIC_LINK: {
+        APN: "com.klik.adzkia",
+        APP_CODE: "klik-adzkia-dd20b",
+        CUSTOM_DOMAIN: "https://adzkia.page.link",
+        IBI: "idn.klik.adzkia",
+        ISI: "1565126142",
+    },
 
     /**
      * Specify mobile app scheme for opening the app from the mobile browser.
      */
-    // APP_SCHEME: 'org.jitsi.meet',
+    APP_SCHEME: "com.klik.adzkia",
 
     /**
      * Specify the Android app package name.
      */
-    // ANDROID_APP_PACKAGE: 'org.jitsi.meet',
+    ANDROID_APP_PACKAGE: "com.klik.adzkia",
 
     /**
      * Override the behavior of some notifications to remain displayed until
@@ -259,7 +279,7 @@ var interfaceConfig = {
     // Allow all above example options to include a trailing comma and
     // prevent fear when commenting out the last value.
     // eslint-disable-next-line sort-keys
-    makeJsonParserHappy: 'even if last key had a trailing comma'
+    makeJsonParserHappy: "even if last key had a trailing comma",
 
     // No configuration value should follow this line.
 };
